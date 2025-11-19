@@ -124,8 +124,6 @@ const getUniqueValues =(arr1:Arrays,arr2:Arrays):number[]=>{
 const array1 = [1, 2, '3', 4, 5];
 const array2 = [3, 4, 5, 6, 7];
 
-
-
 type Properties={
     name:string;
     price:number;
