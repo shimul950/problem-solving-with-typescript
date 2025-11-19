@@ -1,4 +1,4 @@
-//----------problem 1------------------
+
 const formatValue = (value:string|number|boolean) =>{
     if(typeof(value) === 'string'){
         return value.toUpperCase();
@@ -11,9 +11,6 @@ const formatValue = (value:string|number|boolean) =>{
     }
 }
 
-// console.log(formatValue('hellow'))
-
-//---------------problem 2--------------
 
 const getLength =(value:string[] | number[] | string)=>{
     if(typeof value === 'string'){
@@ -23,7 +20,6 @@ const getLength =(value:string[] | number[] | string)=>{
     }
 }
 
-//-------------problem 3------------
 
 class Person {
     name:string;
@@ -37,7 +33,7 @@ class Person {
     }
 }
 
-//----------------problem 4--------
+
 type ArrayofItem  ={
     title:string;
     rating:number;
@@ -58,7 +54,7 @@ const books = [
   { title: 'Book C', rating: 5.0 },
 ];
 
-//--------------problem 5------------
+
 
 type setUsersInfoType ={
     id:number;
@@ -80,7 +76,7 @@ const users = [
 ];
 
 
-//-----------------problem 6---------
+
 
 interface Book{
     title:string;
@@ -100,7 +96,7 @@ const myBook: Book = {
   isAvailable: false,
 };
 
-//------------problem 7----------
+
 type Arrays =(number| string)[];
 
 const getUniqueValues =(arr1:Arrays,arr2:Arrays):number[]=>{
@@ -128,7 +124,7 @@ const getUniqueValues =(arr1:Arrays,arr2:Arrays):number[]=>{
 const array1 = [1, 2, '3', 4, 5];
 const array2 = [3, 4, 5, 6, 7];
 
-//--------------------problem 8-------------
+
 
 type Properties={
     name:string;
@@ -158,5 +154,5 @@ const products = [
   { name: 'Bag', price: 50, quantity: 1, discount: 20 },
 ];
 
-console.log(calculateTotalPrice(products));
+
 
